@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bf_login_recaptcha_lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-10 03:33+0000\n"
+"PO-Revision-Date: 2025-11-10 03:33+0000\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: bf_login_recaptcha_lite
+msgid "Login reCAPTCHA"
+msgstr "تسجيل الدخول باستخدام reCAPTCHA"
+
+#. module: bf_login_recaptcha_lite
+msgid "Chave pública (site key)"
+msgstr "المفتاح العام (site key)"
+
+#. module: bf_login_recaptcha_lite
+msgid "Chave secreta (server side)"
+msgstr "المفتاح السري (جهة الخادم)"
+
+#. module: bf_login_recaptcha_lite
+msgid "Falhas antes de exigir reCAPTCHA"
+msgstr "عدد المحاولات الفاشلة قبل طلب reCAPTCHA"
+
+#. module: bf_login_recaptcha_lite
+msgid "Falhas antes de exigir reCAPTCHA (0 = sempre mostrar)"
+msgstr "عدد المحاولات الفاشلة قبل طلب reCAPTCHA (0 = إظهار دائمًا)"
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA Site Key"
+msgstr "مفتاح موقع reCAPTCHA"
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA Secret Key"
+msgstr "المفتاح السري لـ reCAPTCHA"
+
+#. module: bf_login_recaptcha_lite
+msgid "Please complete the reCAPTCHA verification."
+msgstr "يرجى إكمال تحقق reCAPTCHA."
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA verification failed. Please try again."
+msgstr "فشل تحقق reCAPTCHA. يرجى المحاولة مرة أخرى."
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA verification error. Please try again."
+msgstr "حدث خطأ في تحقق reCAPTCHA. يرجى المحاولة مرة أخرى."
+

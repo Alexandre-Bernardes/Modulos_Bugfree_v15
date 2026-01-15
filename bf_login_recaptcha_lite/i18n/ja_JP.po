@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bf_login_recaptcha_lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-10 03:33+0000\n"
+"PO-Revision-Date: 2025-11-10 03:33+0000\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: bf_login_recaptcha_lite
+msgid "Login reCAPTCHA"
+msgstr "reCAPTCHA ログイン"
+
+#. module: bf_login_recaptcha_lite
+msgid "Chave pública (site key)"
+msgstr "公開キー（サイトキー）"
+
+#. module: bf_login_recaptcha_lite
+msgid "Chave secreta (server side)"
+msgstr "秘密キー（サーバー側）"
+
+#. module: bf_login_recaptcha_lite
+msgid "Falhas antes de exigir reCAPTCHA"
+msgstr "reCAPTCHA を要求するまでの失敗回数"
+
+#. module: bf_login_recaptcha_lite
+msgid "Falhas antes de exigir reCAPTCHA (0 = sempre mostrar)"
+msgstr "reCAPTCHA を要求するまでの失敗回数（0 = 常に表示）"
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA サイトキー"
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA シークレットキー"
+
+#. module: bf_login_recaptcha_lite
+msgid "Please complete the reCAPTCHA verification."
+msgstr "reCAPTCHA の確認を完了してください。"
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA verification failed. Please try again."
+msgstr "reCAPTCHA の確認に失敗しました。再試行してください。"
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA verification error. Please try again."
+msgstr "reCAPTCHA の確認中にエラーが発生しました。再試行してください。"
+

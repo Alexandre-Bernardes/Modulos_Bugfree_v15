@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bf_login_recaptcha_lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-10 03:33+0000\n"
+"PO-Revision-Date: 2025-11-10 03:33+0000\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: bf_login_recaptcha_lite
+msgid "Login reCAPTCHA"
+msgstr "Inicio de sesión con reCAPTCHA"
+
+#. module: bf_login_recaptcha_lite
+msgid "Chave pública (site key)"
+msgstr "Clave pública (site key)"
+
+#. module: bf_login_recaptcha_lite
+msgid "Chave secreta (server side)"
+msgstr "Clave secreta (lado del servidor)"
+
+#. module: bf_login_recaptcha_lite
+msgid "Falhas antes de exigir reCAPTCHA"
+msgstr "Fallos antes de exigir reCAPTCHA"
+
+#. module: bf_login_recaptcha_lite
+msgid "Falhas antes de exigir reCAPTCHA (0 = sempre mostrar)"
+msgstr "Fallos antes de exigir reCAPTCHA (0 = mostrar siempre)"
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA Site Key"
+msgstr "Clave de sitio reCAPTCHA"
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA Secret Key"
+msgstr "Clave secreta reCAPTCHA"
+
+#. module: bf_login_recaptcha_lite
+msgid "Please complete the reCAPTCHA verification."
+msgstr "Por favor, complete la verificación reCAPTCHA."
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA verification failed. Please try again."
+msgstr "La verificación reCAPTCHA ha fallado. Inténtelo de nuevo."
+
+#. module: bf_login_recaptcha_lite
+msgid "reCAPTCHA verification error. Please try again."
+msgstr "Se produjo un error en la verificación reCAPTCHA. Inténtelo de nuevo."
+

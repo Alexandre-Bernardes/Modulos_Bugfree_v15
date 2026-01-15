@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <!-- Replace the settings block using the standard Odoo 12 pattern -->
+    <record id="bf_login_recaptcha_lite_res_config_settings_view" model="ir.ui.view">
+      <field name="name">bf_login_recaptcha_lite.res.config.settings.view</field>
+      <field name="model">res.config.settings</field>
+      <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//div[hasclass('settings')]" position="inside">
+          <div class="app_settings_block" string="Login reCAPTCHA" data-string="Login reCAPTCHA" data-key="bf_login_recaptcha_lite"  data-icon="fa-shield">
+            <h2>Login reCAPTCHA</h2>
+
+            <div class="row mt16 o_settings_container">
+              <div class="col-12 o_setting_box">
+                <div class="o_setting_left_pane">
+                  <span class="fa fa-shield"/>
+                </div>
+                <div class="o_setting_right_pane">
+                  <label for="bf_recaptcha_site_key"/>
+                  <div class="text-muted">Chave pública (site key)</div>
+                  <div class="content-group">
+                    <field name="bf_recaptcha_site_key" placeholder="6Lc..."/>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 o_setting_box">
+                <div class="o_setting_left_pane">
+                  <span class="fa fa-key"/>
+                </div>
+                <div class="o_setting_right_pane">
+                  <label for="bf_recaptcha_secret_key"/>
+                  <div class="text-muted">Chave secreta (server side)</div>
+                  <div class="content-group">
+                    <field name="bf_recaptcha_secret_key" password="True" placeholder="6Lc..."/>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 o_setting_box">
+                <div class="o_setting_left_pane">
+                  <span class="fa fa-exclamation-triangle"/>
+                </div>
+                <div class="o_setting_right_pane">
+                  <label for="bf_recaptcha_fail_threshold"/>
+                  <div class="text-muted">Falhas antes de exigir reCAPTCHA (0 = sempre mostrar)</div>
+                  <div class="content-group">
+                    <field name="bf_recaptcha_fail_threshold" class="oe_inline"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>

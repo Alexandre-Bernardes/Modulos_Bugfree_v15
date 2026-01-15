@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Bugfree Login reCAPTCHA Lite</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.5;
+        padding: 16px;
+      }
+      h1, h2, h3 {
+        color: #333;
+      }
+      .bf-hero {
+        border-radius: 10px;
+        padding: 14px 18px;
+        background: linear-gradient(90deg, #f5f7fb, #eef3ff);
+        border: 1px solid #d9e1f2;
+        margin-bottom: 18px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      }
+      .bf-hero h1 {
+        margin: 0 0 4px 0;
+        font-size: 22px;
+      }
+      .bf-hero small {
+        color: #666;
+      }
+      details {
+        margin: 8px 0;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        padding: 6px 10px;
+        background: #fafafa;
+      }
+      details summary {
+        cursor: pointer;
+        outline: none;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .bf-lang-block {
+        margin-top: 8px;
+      }
+      .bf-flag {
+        width: 18px;
+        height: 12px;
+        border-radius: 2px;
+        object-fit: cover;
+        box-shadow: 0 0 0 1px #d0d7e2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bf-hero">
+      <h1>Bugfree Login reCAPTCHA (Lite)</h1>
+      <small>Protect your Odoo login form with Google reCAPTCHA and only challenge after suspicious behavior.</small>
+    </div>
+
+    <section>
+      <h2>Bugfree Login reCAPTCHA Lite</h2>
+<p>Protects the Odoo login with Google reCAPTCHA. Show the captcha only after N consecutive failures (threshold), similar to large sites (Amazon/Google/Microsoft/GitHub/Reddit) that present challenges only after suspicious behavior.</p>
+<h3>How to get your own keys</h3>
+<p>1. Go to https://www.google.com/recaptcha/admin</p>
+<p>2. Create a site using **reCAPTCHA v2 → &quot;I&#x27;m not a robot&quot; Checkbox**</p>
+<p>3. Add your domains (e.g., `example.com`, `www.example.com`) and `localhost` for development</p>
+<p>4. Copy the **Site key** and **Secret key**</p>
+<p>5. Paste in **Settings → Login reCAPTCHA**, then set your fail threshold (e.g., 2–3)</p>
+<h3>Testing (Sandbox) Keys (development only; work on any domain, including `localhost`)</h3>
+<p>```</p>
+<p>Site key:   6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI</p>
+<p>Secret key: 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe</p>
+<p>```</p>
+<h3>Pós-instalação (pt_BR)</h3>
+<p>- Reinicie o Odoo</p>
+<p>- Limpe caches do navegador/CDN</p>
+<p>- Acesse com `?debug=assets` e faça hard refresh</p>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>🌍 Full description by language</h2>
+      
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_br.png" alt="BR"/>
+          <b>Português (Brasil) (pt_BR)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>Português (Brasil) - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em Português (Brasil).</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_es.png" alt="ES"/>
+          <b>Español (es_ES)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>Español - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em Español.</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_de.png" alt="DE"/>
+          <b>Deutsch (de_DE)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>Deutsch - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em Deutsch.</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_fr.png" alt="FR"/>
+          <b>Français (fr_FR)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>Français - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em Français.</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_it.png" alt="IT"/>
+          <b>Italiano (it_IT)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>Italiano - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em Italiano.</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_ja.png" alt="JA"/>
+          <b>日本語 (ja_JP)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>日本語 - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em 日本語.</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_pt.png" alt="PT"/>
+          <b>Português (Portugal) (pt_PT)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>Português (Portugal) - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em Português (Portugal).</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_ru.png" alt="RU"/>
+          <b>Русский (ru_RU)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>Русский - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em Русский.</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_zh.png" alt="ZH"/>
+          <b>简体中文 (zh_CN)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>中文(简体) - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em 中文(简体).</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_ar.png" alt="AR"/>
+          <b>العربية (ar)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>العربية - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em العربية.</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_pl.png" alt="PL"/>
+          <b>Polski (pl_PL)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>Polski - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em Polski.</p>
+        </div>
+      </details>
+    
+      <details>
+        <summary>
+          <img class="bf-flag" src="flags/flag_nl.png" alt="NL"/>
+          <b>Nederlands (nl_NL)</b>
+        </summary>
+        <div class="bf-lang-block">
+        <h2>Nederlands - Bugfree Login reCAPTCHA Lite</h2>
+<p>Resumo/guia em Nederlands.</p>
+        </div>
+      </details>
+    
+    </section>
+
+    <hr/>
+    <section>
+      <h3>Post-installation notes</h3>
+      <ul>
+        <li>Restart the Odoo service after installing/upgrading this module.</li>
+        <li>Clear browser cache and any CDN/proxy cache.</li>
+        <li>Force asset reload using <code>?debug=assets</code> if needed.</li>
+        <li>Update this module from the Apps menu after changing code or assets.</li>
+      </ul>
+    </section>
+  </body>
+</html>

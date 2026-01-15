@@ -1,0 +1,112 @@
+# ============================================
+# 📦 ODOO PROJECT .GITIGNORE
+# ============================================
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.eggs/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+env/
+venv/
+.venv/
+env*/
+venv*/
+local/
+#lib/
+#lib64/
+
+# 🧩 Odoo specific
+*.db
+#*.zip
+*.pot
+*.po~
+*.mo
+*.log
+*.pid
+*.csv
+*.xlsx
+*.xls
+*.xml~
+#*.mp3
+#*.mp4
+#*.bak
+*.swp
+*.tmp
+
+# 🔄 Odoo auto-generated files
+*.session
+*.cache
+*.pydevproject
+odoo/addons/*/__pycache__/
+odoo/addons/*/static/*/.web.assets_cache/
+odoo/addons/*/static/lib/
+odoo/addons/*/static/src/scss/.sass-cache/
+odoo/addons/*/static/src/js/*.min.js
+
+# 🗄️ Database dumps
+*.sql
+*.sql.gz
+dump.sql
+dump.sql.gz
+*.dump
+*.dump.gz
+
+# 🧪 Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+.mypy_cache/
+.pyre/
+
+# 🧰 IDEs e Editores
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ⚙️ OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# 🚀 Deployment and containers
+*.log
+*.pid
+*.seed
+*.bak
+*.retry
+docker-compose.override.yml
+.env
+.env.*
+*.tar
+*.tgz
+*.gz
+*.zip
+*.rar
+*.bak
+*.old
+*.orig
+
+# 🧑‍💻 Custom Modules - Keep only your own addons
+# Example: ignore everything except your custom folder
+# /addons/* except /addons/custom_module_name
+/addons/*
+!/addons/custom_*/
+
+# ============================================
+# END OF FILE
+# ============================================
