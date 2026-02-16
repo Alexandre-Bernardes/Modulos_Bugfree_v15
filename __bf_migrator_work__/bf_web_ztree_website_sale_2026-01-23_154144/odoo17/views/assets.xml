@@ -1,0 +1,8 @@
+<odoo>
+    <template id="assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/bf_web_ztree_website_sale/static/src/js/ztree_m2m_select.js"/>
+            <link rel="stylesheet" href="/bf_web_ztree_website_sale/static/src/css/ztree_m2m_select.css"/>
+        </xpath>
+    </template>
+</odoo>

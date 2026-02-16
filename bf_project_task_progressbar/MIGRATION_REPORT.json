@@ -1,0 +1,208 @@
+{
+  "run": {
+    "timestamp": "2026-01-23_053351",
+    "source_dir": "E:\\Odoo\\Modulos_Bugfree_v12\\bf_project_task_progressbar",
+    "source_version": 0,
+    "target_versions": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "options": {
+      "prefer_gradual": true,
+      "allow_direct_jump": true,
+      "keep_intermediate_steps": true,
+      "fail_fast": true,
+      "make_backup_copy": true,
+      "validate_python_syntax": true,
+      "validate_xml_basic": true,
+      "validate_js_basic": true,
+      "write_reports": true,
+      "write_requirements_txt": true,
+      "aggressive_import_guessing": true,
+      "allow_downgrade_copy_only": false
+    }
+  },
+  "modules": [
+    {
+      "name": "bf_project_task_progressbar",
+      "source_path": "E:\\Odoo\\Modulos_Bugfree_v12\\bf_project_task_progressbar",
+      "output_root": "E:\\Odoo\\Modulos_Bugfree_v13",
+      "detected_source_version": 12,
+      "detected_manifest_version": "12.0.1.1.26",
+      "targets_written": [
+        {
+          "target_version": 13,
+          "path": "E:\\Odoo\\Modulos_Bugfree_v13\\bf_project_task_progressbar",
+          "mode": "migrated"
+        }
+      ],
+      "steps": [
+        {
+          "from_version": 12,
+          "to_version": 13,
+          "status": "OK",
+          "warnings": [],
+          "errors": [],
+          "stats": {
+            "manifest_changed": true,
+            "py_changed": 0,
+            "xml_changed": 0,
+            "js_changed": 2,
+            "changed_files_total": 3,
+            "changed_files_sample": [
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo13\\__manifest__.py",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo13\\static\\src\\js\\project_kanban_task_progress.js",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo13\\static\\src\\js\\task_stat_progress.js"
+            ],
+            "patch_path": "bf_project_task_progressbar - BF Migration Report\\2026-01-23_053351\\diffs\\odoo12_to_odoo13.patch"
+          }
+        },
+        {
+          "from_version": 13,
+          "to_version": 14,
+          "status": "OK",
+          "warnings": [],
+          "errors": [],
+          "stats": {
+            "manifest_changed": true,
+            "py_changed": 0,
+            "xml_changed": 0,
+            "js_changed": 2,
+            "changed_files_total": 3,
+            "changed_files_sample": [
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo14\\__manifest__.py",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo14\\static\\src\\js\\project_kanban_task_progress.js",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo14\\static\\src\\js\\task_stat_progress.js"
+            ],
+            "patch_path": "bf_project_task_progressbar - BF Migration Report\\2026-01-23_053351\\diffs\\odoo13_to_odoo14.patch"
+          }
+        },
+        {
+          "from_version": 14,
+          "to_version": 15,
+          "status": "OK",
+          "warnings": [],
+          "errors": [],
+          "stats": {
+            "manifest_changed": true,
+            "py_changed": 0,
+            "xml_changed": 0,
+            "js_changed": 2,
+            "changed_files_total": 3,
+            "changed_files_sample": [
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo15\\__manifest__.py",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo15\\static\\src\\js\\project_kanban_task_progress.js",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo15\\static\\src\\js\\task_stat_progress.js"
+            ],
+            "patch_path": "bf_project_task_progressbar - BF Migration Report\\2026-01-23_053351\\diffs\\odoo14_to_odoo15.patch"
+          }
+        },
+        {
+          "from_version": 15,
+          "to_version": 16,
+          "status": "OK",
+          "warnings": [],
+          "errors": [],
+          "stats": {
+            "manifest_changed": true,
+            "py_changed": 0,
+            "xml_changed": 0,
+            "js_changed": 2,
+            "changed_files_total": 3,
+            "changed_files_sample": [
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo16\\__manifest__.py",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo16\\static\\src\\js\\project_kanban_task_progress.js",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo16\\static\\src\\js\\task_stat_progress.js"
+            ],
+            "patch_path": "bf_project_task_progressbar - BF Migration Report\\2026-01-23_053351\\diffs\\odoo15_to_odoo16.patch"
+          }
+        },
+        {
+          "from_version": 16,
+          "to_version": 17,
+          "status": "WARN",
+          "warnings": [
+            "Contém padrão AMD (odoo.define). No Odoo 17+ o recomendado é ES modules; pode exigir modernização manual.",
+            "Contém padrão AMD (odoo.define). No Odoo 17+ o recomendado é ES modules; pode exigir modernização manual."
+          ],
+          "errors": [],
+          "stats": {
+            "manifest_changed": true,
+            "py_changed": 0,
+            "xml_changed": 0,
+            "js_changed": 2,
+            "changed_files_total": 3,
+            "changed_files_sample": [
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo17\\__manifest__.py",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo17\\static\\src\\js\\project_kanban_task_progress.js",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo17\\static\\src\\js\\task_stat_progress.js"
+            ],
+            "patch_path": "bf_project_task_progressbar - BF Migration Report\\2026-01-23_053351\\diffs\\odoo16_to_odoo17.patch"
+          }
+        },
+        {
+          "from_version": 17,
+          "to_version": 18,
+          "status": "WARN",
+          "warnings": [
+            "Contém padrão AMD (odoo.define). No Odoo 17+ o recomendado é ES modules; pode exigir modernização manual.",
+            "Contém padrão AMD (odoo.define). No Odoo 17+ o recomendado é ES modules; pode exigir modernização manual."
+          ],
+          "errors": [],
+          "stats": {
+            "manifest_changed": true,
+            "py_changed": 0,
+            "xml_changed": 0,
+            "js_changed": 2,
+            "changed_files_total": 3,
+            "changed_files_sample": [
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo18\\__manifest__.py",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo18\\static\\src\\js\\project_kanban_task_progress.js",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo18\\static\\src\\js\\task_stat_progress.js"
+            ],
+            "patch_path": "bf_project_task_progressbar - BF Migration Report\\2026-01-23_053351\\diffs\\odoo17_to_odoo18.patch"
+          }
+        },
+        {
+          "from_version": 18,
+          "to_version": 19,
+          "status": "WARN",
+          "warnings": [
+            "Contém padrão AMD (odoo.define). No Odoo 17+ o recomendado é ES modules; pode exigir modernização manual.",
+            "Contém padrão AMD (odoo.define). No Odoo 17+ o recomendado é ES modules; pode exigir modernização manual."
+          ],
+          "errors": [],
+          "stats": {
+            "manifest_changed": true,
+            "py_changed": 0,
+            "xml_changed": 0,
+            "js_changed": 2,
+            "changed_files_total": 3,
+            "changed_files_sample": [
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo19\\__manifest__.py",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo19\\static\\src\\js\\project_kanban_task_progress.js",
+              "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo19\\static\\src\\js\\task_stat_progress.js"
+            ],
+            "patch_path": "bf_project_task_progressbar - BF Migration Report\\2026-01-23_053351\\diffs\\odoo18_to_odoo19.patch"
+          }
+        }
+      ],
+      "requirements": {
+        "path": "E:\\Odoo\\Modulos_Bugfree_v12\\__bf_migrator_work__\\bf_project_task_progressbar_2026-01-23_053351\\odoo19\\requirements.txt",
+        "diff": {
+          "before": [],
+          "after": [],
+          "added": [],
+          "removed": []
+        },
+        "scan_errors": [],
+        "guessed_imports": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bf_web_ztree 12.0.1.0.0\n"
+"POT-Creation-Date: 2026-01-16 00:00-0300\n"
+"PO-Revision-Date: 2026-01-16 00:00-0300\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: bf_web_ztree
+msgid "Select from tree"
+msgstr "ツリーから選択"
+
+#. module: bf_web_ztree
+msgid "Search..."
+msgstr "検索..."
+
+#. module: bf_web_ztree
+msgid "Tip: click a node to select; use search to filter."
+msgstr "ヒント: ノードをクリックして選択し、検索で絞り込みます。"
+
+#. module: bf_web_ztree
+msgid "Close"
+msgstr "閉じる"
+
+#. module: bf_web_ztree
+msgid "No matches."
+msgstr "一致する結果はありません。"

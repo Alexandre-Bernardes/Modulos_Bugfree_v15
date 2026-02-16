@@ -1,0 +1,12 @@
+<odoo>
+    <template id="bf_web_ztree_assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/css" href="/bf_web_ztree/static/lib/ztree/css/zTreeStyle/zTreeStyle.css"/>
+            <link rel="stylesheet" type="text/css" href="/bf_web_ztree/static/src/css/ztree_select.css"/>
+
+            <script type="text/javascript" src="/bf_web_ztree/static/lib/ztree/js/jquery.ztree.core.js"></script>
+            <script type="text/javascript" src="/bf_web_ztree/static/src/js/ztree_select.js"></script>
+            <script type="text/javascript" src="/bf_web_ztree/static/src/js/view_registry_tree_alias.js"></script>
+        </xpath>
+    </template>
+</odoo>

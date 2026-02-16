@@ -1,0 +1,25 @@
+/* Smart button (Project form) - percentpie + x/y layout */
+.bf_task_sb_wrap{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.bf_task_sb_pie{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    min-width: 34px;
+}
+.bf_task_sb_labels{
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+.bf_task_sb_labels .o_stat_text{
+    margin-bottom: 2px;
+}
+.bf_task_sb_labels .o_stat_value{
+    font-size: 12px;
+    opacity: 0.85;
+}

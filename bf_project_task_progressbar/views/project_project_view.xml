@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bf_project_project_form_task_progressbar" model="ir.ui.view">
+        <field name="name">project.project.form.task.progressbar</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+            <!-- Replace the *standard* Tasks smart button with a percentpie + x/y (open/total).
+                 Click behavior remains standard via action_view_tasks (type=object). -->
+            <xpath expr="//div[@name='button_box']//button[.//field[@name='task_count']]" position="replace">
+                <button type="object" name="action_view_tasks" class="oe_stat_button" icon="fa-tasks">
+                    <!-- Ensure computed fields are available in recordData -->
+                    <field name="bf_task_total_count" invisible="1"/>
+                    <field name="bf_task_done_count" invisible="1"/>
+                    <field name="bf_task_open_count" invisible="1"/>
+
+                    <div class="o_stat_info bf_task_sb_wrap">
+                        <span class="bf_task_sb_pie">
+                            <field name="bf_task_progress" widget="percentpie"/>
+                        </span>
+                        <span class="bf_task_sb_labels">
+                            <span class="o_stat_text">Tarefas</span>
+                            <span class="o_stat_value">
+                                <field name="bf_task_xy_display" nolabel="1"/>
+                            </span>
+                        </span>
+                    </div>
+                </button>
+            </xpath>
+        </field>
+    </record>
+</odoo>

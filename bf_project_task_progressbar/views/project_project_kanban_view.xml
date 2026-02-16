@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bf_project_project_kanban_task_progressbar" model="ir.ui.view">
+        <field name="name">project.project.kanban.task.progressbar</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.view_project_kanban"/>
+        <field name="arch" type="xml">
+
+            <!-- Ensure computed fields are available in kanban record -->
+            <xpath expr="//kanban/templates" position="before">
+                <field name="bf_task_total_count"/>
+                <field name="bf_task_done_count"/>
+                <field name="bf_task_progress"/>
+            </xpath>
+
+            <!-- Replace the existing Tasks counter area (task_count) with a progress bar + x/y.
+                 We intentionally avoid targeting a specific action/button name because many
+                 installations (or other modules) override the kanban template. -->
+            <xpath expr="//t[@t-name='kanban-box']//*[contains(@t-esc,'task_count') or contains(@t-raw,'task_count') or contains(@t-esc,'tasks_count') or contains(@t-raw,'tasks_count') or contains(@t-esc,'task_ids_count') or contains(@t-raw,'task_ids_count') or (self::field and (@name='task_count' or @name='tasks_count' or @name='task_ids_count'))]/ancestor::*[self::a or self::button][1]" position="replace">
+                <a type="object" name="action_view_task" class="o_kanban_counter bf_task_prog_link" title="Tasks">
+                    <div class="bf_task_prog_root">
+                        <div class="bf_task_prog_top">
+                            <span class="bf_task_prog_label">Tasks</span>
+                            <span class="bf_task_prog_xy">
+                                <t t-esc="record.bf_task_done_count.raw_value or 0"/>/<t t-esc="record.bf_task_total_count.raw_value or 0"/>
+                            </span>
+                        </div>
+                        <div class="bf_task_prog_bar_wrap" role="progressbar"
+                             t-att-aria-valuenow="record.bf_task_progress.raw_value or 0"
+                             aria-valuemin="0" aria-valuemax="100">
+                            <div class="bf_task_prog_bar"
+                                 t-att-style="'width: ' + (record.bf_task_progress.raw_value or 0) + '%;'"/>
+                        </div>
+                    </div>
+                </a>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,36 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# \t* bf_web_ztree_website_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"POT-Creation-Date: 2026-01-16 00:00+0000\n"
+"PO-Revision-Date: 2026-01-16 00:00+0000\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: bf_web_ztree_website_sale
+#: model:ir.ui.view,arch_db:bf_web_ztree_website_sale.view_res_config_settings_bf_web_ztree_website_sale
+msgid "Bugfree zTree Website Sale"
+msgstr "Bugfree zTree Website Sale"
+
+#. module: bf_web_ztree_website_sale
+#: model:ir.model.fields,field_description:bf_web_ztree_website_sale.field_res_config_settings_bf_ztree_public_category_enabled
+msgid "Enable zTree for Product Public Categories"
+msgstr "Ativar zTree para Categorias Publicas do Produto"
+
+#. module: bf_web_ztree_website_sale
+msgid "Enable zTree multi-select for Product Public Categories (Website categories) when editing products."
+msgstr "Ativar selecao multipla via zTree para Categorias Publicas do Produto (categorias do Website) ao editar produtos."
+
+#. module: bf_web_ztree_website_sale
+msgid "Select categories"
+msgstr "Selecionar categorias"
+
+#. module: bf_web_ztree_website_sale
+msgid "Search..."
+msgstr "Pesquisar..."
+

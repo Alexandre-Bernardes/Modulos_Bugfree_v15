@@ -1,0 +1,177 @@
+.bf_ztree_dropdown_panel {
+    position: absolute;
+    z-index: 2000;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    max-height: 360px;
+    overflow: hidden;
+}
+
+.bf_ztree_dropdown_search {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    border-radius: 0;
+    height: 32px;
+    padding: 6px 10px;
+}
+
+.bf_ztree_dropdown_treebox {
+    overflow: auto;
+    max-height: 260px;
+    padding: 4px 4px;
+}
+
+/*
+ * Tree styling
+ *
+ * Our bundled lightweight zTree core renders a compact structure:
+ *   <li>
+ *     <span class="switch open|close|noop"></span>
+ *     <a class="node_name">Label</a>
+ *     <ul>...</ul>
+ *   </li>
+ *
+ * We must keep the switch and label on the same line and avoid large
+ * default list spacing.
+ */
+.bf_ztree_dropdown_treebox .ztree,
+.bf_ztree_dropdown_treebox .ztree ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bf_ztree_dropdown_treebox .ztree li {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    /*
+     * Full-row hover/selection (Odoo-like) while keeping the switch on
+     * the same line as the label.
+     */
+    display: grid;
+    grid-template-columns: 14px 1fr;
+    align-items: center;
+    min-width: 0;
+}
+
+.bf_ztree_dropdown_treebox .ztree li ul {
+    margin: 0;
+    padding: 0 0 0 18px;
+}
+
+/* Ensure children tree starts aligned with the label column. */
+.bf_ztree_dropdown_treebox .ztree li > ul {
+    grid-column: 2;
+}
+
+.bf_ztree_dropdown_treebox .ztree li > span.switch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 2px 0 0;
+    color: rgba(0,0,0,0.55);
+    cursor: pointer;
+    user-select: none;
+    grid-column: 1;
+}
+
+.bf_ztree_dropdown_treebox .ztree li > span.switch.noop {
+    cursor: default;
+}
+
+.bf_ztree_dropdown_treebox .ztree li > span.switch.close:before {
+    content: "▸";
+}
+
+.bf_ztree_dropdown_treebox .ztree li > span.switch.open:before {
+    content: "▾";
+}
+
+.bf_ztree_dropdown_treebox .ztree li > span.switch.noop:before {
+    content: "";
+}
+
+.bf_ztree_dropdown_treebox .ztree li > a.node_name {
+    grid-column: 2;
+    display: block;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 3px 10px;
+    border-radius: 0;
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bf_ztree_dropdown_treebox .ztree li > a.node_name:focus {
+    outline: none;
+}
+
+.bf_ztree_dropdown_treebox .ztree li > a.node_name:hover {
+    background: rgba(0,0,0,0.04);
+}
+
+/* Selected node highlight (Odoo-like) */
+.bf_ztree_dropdown_treebox .ztree li > a.node_name.selected,
+.bf_ztree_dropdown_treebox .ztree li > a.node_name.curSelectedNode {
+    background: #7c7bad;
+    color: #fff;
+}
+
+/* Keep selection stable on hover (avoid flicker to hover color). */
+.bf_ztree_dropdown_treebox .ztree li > a.node_name.selected:hover,
+.bf_ztree_dropdown_treebox .ztree li > a.node_name.curSelectedNode:hover {
+    background: #7c7bad;
+    color: #fff;
+}
+
+.bf_ztree_dropdown_results {
+    overflow: auto;
+    max-height: 260px;
+    padding: 6px 6px;
+}
+
+.bf_ztree_dropdown_item {
+    padding: 6px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.bf_ztree_dropdown_item:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+.bf_ztree_dropdown_item small {
+    display: block;
+    opacity: 0.7;
+}
+
+.bf_ztree_dropdown_empty {
+    padding: 8px;
+    opacity: 0.7;
+}
+
+.bf_ztree_dropdown_actions {
+    border-top: 1px solid rgba(0,0,0,0.12);
+    padding: 6px;
+}
+
+.bf_ztree_dropdown_actions a {
+    display: block;
+    padding: 6px 8px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.bf_ztree_dropdown_actions a:hover {
+    background: rgba(0,0,0,0.05);
+}

@@ -1,0 +1,12 @@
+<odoo>
+    <record id="view_project_task_progress_graph_bf" model="ir.ui.view">
+        <field name="name">project.task.progress.graph.bf</field>
+        <field name="model">project.task</field>
+        <field name="arch" type="xml">
+            <graph string="Task Progress" type="pie">
+                <field name="bf_progress_state" type="row"/>
+                <field name="id" type="measure"/>
+            </graph>
+        </field>
+    </record>
+</odoo>

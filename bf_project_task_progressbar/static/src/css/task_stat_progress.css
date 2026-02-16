@@ -1,0 +1,40 @@
+/* Odoo 12 smart button compact progress widget */
+.bf_stat_progress_root {
+    min-width: 140px;
+    max-width: 220px;
+    padding: 2px 0;
+}
+
+.bf_stat_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 1.1;
+    margin-bottom: 4px;
+}
+
+.bf_stat_label {
+    font-weight: 600;
+    font-size: 12px;
+    opacity: 0.95;
+}
+
+.bf_stat_xy {
+    font-size: 12px;
+    opacity: 0.85;
+    padding-left: 8px;
+    white-space: nowrap;
+}
+
+.bf_stat_bar_wrap {
+    height: 8px;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.10);
+    overflow: hidden;
+}
+
+.bf_stat_bar {
+    height: 100%;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.35);
+}

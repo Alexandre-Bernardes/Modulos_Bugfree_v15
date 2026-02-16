@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bf_web_ztree 12.0.1.0.0\n"
+"POT-Creation-Date: 2026-01-16 00:00-0300\n"
+"PO-Revision-Date: 2026-01-16 00:00-0300\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: bf_web_ztree
+msgid "Select from tree"
+msgstr "الاختيار من الشجرة"
+
+#. module: bf_web_ztree
+msgid "Search..."
+msgstr "بحث..."
+
+#. module: bf_web_ztree
+msgid "Tip: click a node to select; use search to filter."
+msgstr "تلميح: انقر على عقدة للاختيار؛ استخدم البحث للتصفية."
+
+#. module: bf_web_ztree
+msgid "Close"
+msgstr "إغلاق"
+
+#. module: bf_web_ztree
+msgid "No matches."
+msgstr "لا توجد نتائج."

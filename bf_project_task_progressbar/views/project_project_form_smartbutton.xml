@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bf_project_project_form_task_percentpie_smartbutton" model="ir.ui.view">
+        <field name="name">project.project.form.task.percentpie.smartbutton</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="priority" eval="99"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']//button[.//field[@name='task_count']]" position="attributes">
+                <attribute name="icon"></attribute>
+                <attribute name="title">Tarefas</attribute>
+            </xpath>
+
+            <xpath expr="//div[@name='button_box']//button[.//field[@name='task_count']]//field[@name='task_count']" position="replace">
+                <span class="o_button_icon" style="display:inline-block;transform:scale(0.85);transform-origin:left center;margin-right:10px;">
+                    <field name="bf_task_progress" widget="percentpie" nolabel="1" string=" "/>
+                </span>
+                <div class="o_stat_info" style="display:inline-block;vertical-align:middle;white-space:nowrap;">
+                    <span class="o_stat_text">Tarefas</span>
+                    <span class="o_stat_text"><field name="bf_task_xy_display" nolabel="1"/></span>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

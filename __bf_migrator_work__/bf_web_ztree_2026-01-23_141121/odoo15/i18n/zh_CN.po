@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bf_web_ztree 12.0.1.0.0\n"
+"POT-Creation-Date: 2026-01-16 00:00-0300\n"
+"PO-Revision-Date: 2026-01-16 00:00-0300\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: bf_web_ztree
+msgid "Select from tree"
+msgstr "从树中选择"
+
+#. module: bf_web_ztree
+msgid "Search..."
+msgstr "搜索..."
+
+#. module: bf_web_ztree
+msgid "Tip: click a node to select; use search to filter."
+msgstr "提示：点击节点进行选择；使用搜索进行筛选。"
+
+#. module: bf_web_ztree
+msgid "Close"
+msgstr "关闭"
+
+#. module: bf_web_ztree
+msgid "No matches."
+msgstr "没有匹配项。"

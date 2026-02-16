@@ -1,0 +1,22 @@
+<odoo>
+    <record id="view_project_form_task_progress_smartbutton_bf" model="ir.ui.view">
+        <field name="name">project.project.form.task.progress.smartbutton.bf</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button type="object"
+                        name="action_view_task_progress"
+                        class="oe_stat_button"
+                        icon="fa-line-chart">
+                    <div class="o_stat_info">
+                        <span class="o_stat_value">
+                            <field name="bf_task_xy_display"/>
+                        </span>
+                        <span class="o_stat_text">Tasks</span>
+                    </div>
+                </button>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bf_project_project_form_task_percentpie_smartbutton_fix" model="ir.ui.view">
+        <field name="name">project.project.form.task.percentpie.smartbutton.fix</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="priority" eval="100"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']" position="inside"/>
+        </field>
+    </record>
+</odoo>

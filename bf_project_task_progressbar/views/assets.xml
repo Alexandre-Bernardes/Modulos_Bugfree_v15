@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="BF Project Task Progress Bar assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/css" href="/bf_project_task_progressbar/static/src/css/project_kanban_task_progress.css"/>
+            <script type="text/javascript" src="/bf_project_task_progressbar/static/src/js/project_kanban_task_progress.js"></script>
+        </xpath>
+    </template>
+</odoo>

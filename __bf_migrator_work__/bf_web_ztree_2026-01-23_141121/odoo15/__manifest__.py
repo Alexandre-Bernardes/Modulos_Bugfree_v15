@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+{'name': 'Bugfree zTree Assets',
+ 'version': '15.0.1.0.16',
+ 'author': 'Bugfree do Brasil/Centurion Info (Alexandre Bernardes, Arthur Bernardes)',
+ 'contributors': 'Alexandre Bernardes <centurion.bernardes@gmail.com>, Arthur Bernardes '
+                 '<a.bernardes.domingues@gmail.com>',
+ 'website': 'https://bugfree.com.br',
+ 'license': 'OPL-1',
+ 'category': 'Tools',
+ 'summary': 'Provides ztree_select widget and bundled tree assets for Odoo 15 backend.',
+ 'description': '\n'
+                "Provides a Many2one widget named 'ztree_select' that lets users select records\n"
+                'from a hierarchical (parent/children) structure via a tree dialog.\n'
+                '\n'
+                'This module is designed as a shared dependency so other modules can simply\n'
+                'use widget="ztree_select" on Many2one fields.\n',
+ 'price': 10.0,
+ 'currency': 'USD',
+ 'depends': ['web'],
+ 'data': [],
+ 'qweb': [],
+ 'installable': True,
+ 'application': False,
+ 'auto_install': False,
+ 'assets': {'web.assets_backend': ['bf_web_ztree/static/lib/ztree/css/zTreeStyle/zTreeStyle.css',
+                                   'bf_web_ztree/static/src/css/ztree_select.css',
+                                   'bf_web_ztree/static/lib/ztree/js/jquery.ztree.core.js',
+                                   'bf_web_ztree/static/src/js/ztree_select.js',
+                                   'bf_web_ztree/static/src/js/view_registry_tree_alias.js']}}

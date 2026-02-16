@@ -1,0 +1,29 @@
+.bf_ztree_m2m_select {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+}
+
+.bf_ztree_m2m_select .bf_ztree_m2m_btn {
+    display: inline-block;
+    padding: 4px 6px;
+    margin-left: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.bf_ztree_m2m_select .bf_ztree_m2m_btn:hover {
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.bf_ztree_m2m_dialog .bf_ztree_m2m_box {
+    max-height: 520px;
+    overflow: auto;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 6px;
+    margin-top: 8px;
+}

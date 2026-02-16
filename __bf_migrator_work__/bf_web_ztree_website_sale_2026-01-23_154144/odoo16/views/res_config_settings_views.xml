@@ -1,0 +1,29 @@
+<odoo>
+    <record id="view_res_config_settings_bf_web_ztree_website_sale" model="ir.ui.view">
+        <field name="name">bf_web_ztree_website_sale.res.config.settings</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('settings')]" position="inside">
+                <div class="app_settings_block" data-key="bf_web_ztree_website_sale">
+                    <h2>Bugfree zTree Website Sale</h2>
+                    <div class="row mt16 o_settings_container">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="o_setting_box">
+                                <div class="o_setting_left_pane">
+                                    <field name="bf_ztree_public_category_enabled"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label for="bf_ztree_public_category_enabled"/>
+                                    <div class="text-muted">
+                                        Enable zTree multi-select for Product Public Categories (Website categories) when editing products.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

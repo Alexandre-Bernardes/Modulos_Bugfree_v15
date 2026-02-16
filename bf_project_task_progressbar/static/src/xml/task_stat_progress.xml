@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="bf_project_task_progressbar.BfStatProgress">
+        <div class="bf_stat_progress_root">
+            <div class="bf_stat_top">
+                <span class="bf_stat_label"><t t-esc="label"/></span>
+                <span class="bf_stat_xy"><t t-esc="done"/>/<t t-esc="total"/></span>
+            </div>
+            <div class="bf_stat_bar_wrap" role="progressbar" t-att-aria-valuenow="pct" aria-valuemin="0" aria-valuemax="100">
+                <div class="bf_stat_bar" t-att-style="'width: ' + pct.toFixed(2) + '%;'"></div>
+            </div>
+        </div>
+    </t>
+</templates>
